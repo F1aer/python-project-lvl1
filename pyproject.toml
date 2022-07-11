@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["F1aer <art.ilykhov@gmail.com>"]
 packages = [
@@ -15,6 +15,7 @@ flake8 = "^4.0.1"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
